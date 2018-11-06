@@ -19,8 +19,8 @@ import numpy as np
 import os, sys
 from PIL import Image
 
-path = "C:/Calle/Programmering/Python/Autoencoder/data/"
-model_path = "C:/Calle/Programmering/Python/Autoencoder/models/"
+path = "./data/"
+model_path = "./models/"
 fname = "fashion-mnist_train.csv"
 
 def read_and_split_data(path, fname):
